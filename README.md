@@ -4,7 +4,7 @@ A daily log of Data Structures & Algorithms practice in C++. Each session's work
 
 ## File naming
 
-Files follow an `MMDDYY.cpp` pattern, e.g. [091426.cpp](091426.cpp) was written on September 14, 2026. Files are self-contained — one `#include<bits/stdc++.h>` per file with all helper structures and functions for that day's problems, typically exercised via `main()`.
+Files follow an `MMDDYY.cpp` pattern, e.g. [091526.cpp](091526.cpp) was written on September 15, 2026. Files are self-contained — one `#include<bits/stdc++.h>` per file with all helper structures and functions for that day's problems, typically exercised via `main()`.
 
 Compiled binaries (`*.exe`) are build artifacts and are git-ignored, along with `.vscode/`.
 
