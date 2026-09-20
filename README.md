@@ -18,7 +18,8 @@ Problems span core interview/competitive-programming DSA topics, including:
 - **Trees & BSTs** — traversals, balanced BST construction
 - **Graphs** — BFS/DFS, Union-Find / Disjoint Set
 - **Heaps & priority queues**
-- **Dynamic programming** — including string DP (e.g. edit distance)
+- **Dynamic programming** — including string DP (e.g. edit distance) and path DP (e.g. min side jumps)
+- **Fenwick Tree (BIT) & Segment Tree** — range sum/max queries and updates
 - **Bit manipulation & bitmasking**
 - **Hashing & math**
 - **Tries**
