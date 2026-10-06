@@ -4,7 +4,7 @@ A daily log of Data Structures & Algorithms practice in C++. Each session's work
 
 ## File naming
 
-Files follow an `MMDDYY.cpp` pattern, e.g. [092426.cpp](092426.cpp) was written on September 24, 2026. Files are self-contained — one `#include<bits/stdc++.h>` per file with all helper structures and functions for that day's problems, typically exercised via `main()`.
+Files follow an `MMDDYY.cpp` pattern, e.g. [100626.cpp](100626.cpp) was written on October 6, 2026. Files are self-contained — one `#include<bits/stdc++.h>` per file with all helper structures and functions for that day's problems, typically exercised via `main()`.
 
 Compiled binaries (`*.exe`) are build artifacts and are git-ignored, along with `.vscode/`.
 
@@ -18,7 +18,7 @@ Problems span core interview/competitive-programming DSA topics, including:
 - **Trees & BSTs** — traversals, balanced BST construction
 - **Graphs** — BFS/DFS, Union-Find / Disjoint Set
 - **Heaps & priority queues**
-- **Dynamic programming** — including string DP (e.g. edit distance) and path DP (e.g. min side jumps)
+- **Dynamic programming** — including string DP (e.g. edit distance), path DP (e.g. min side jumps), unbounded knapsack / rod cutting, and the LCS family (longest common subsequence/substring, shortest common supersequence, min insertions/deletions), with both 2D and space-optimised 1D variants
 - **Fenwick Tree (BIT) & Segment Tree** — range sum/max queries and updates
 - **Bit manipulation & bitmasking**
 - **Hashing & math**
@@ -26,7 +26,7 @@ Problems span core interview/competitive-programming DSA topics, including:
 
 ## Status
 
-Not every file holds a finished solution — some are skeleton stubs (just `main()`) reserved for a topic that hasn't been tackled yet. This is a personal practice log rather than a curated solutions library, so style and completeness vary day to day.
+Not every file holds a finished solution — some are skeleton stubs (just `main()`) reserved for a topic that hasn't been tackled yet, and a few have a function left unimplemented (e.g. `cutRod` in [092826.cpp](092826.cpp), `numDistinct` in [100626.cpp](100626.cpp)). This is a personal practice log rather than a curated solutions library, so style and completeness vary day to day.
 
 ## Building
 
