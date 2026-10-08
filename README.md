@@ -18,7 +18,7 @@ Problems span core interview/competitive-programming DSA topics, including:
 - **Trees & BSTs** — traversals, balanced BST construction
 - **Graphs** — BFS/DFS, Union-Find / Disjoint Set
 - **Heaps & priority queues**
-- **Dynamic programming** — including string DP (e.g. edit distance), path DP (e.g. min side jumps), unbounded knapsack / rod cutting, and the LCS family (longest common subsequence/substring, shortest common supersequence, min insertions/deletions), distinct subsequences, wildcard matching, and stock buy/sell (up to k transactions), with both 2D and space-optimised 1D variants
+- **Dynamic programming** — including string DP (e.g. edit distance), path DP (e.g. min side jumps), unbounded knapsack / rod cutting, and the LCS family (longest common subsequence/substring, shortest common supersequence, min insertions/deletions), distinct subsequences, wildcard matching, stock buy/sell (up to k transactions, with cooldown, with transaction fee), and longest increasing subsequence (brute force and DP), with both 2D and space-optimised 1D variants
 - **Fenwick Tree (BIT) & Segment Tree** — range sum/max queries and updates
 - **Bit manipulation & bitmasking**
 - **Hashing & math**
