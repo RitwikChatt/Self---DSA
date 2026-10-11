@@ -202,7 +202,7 @@ int maxProfit22DDP(vector<int>& prices) {
         dp[i][1] = max(dp[i - 1][1], -prices[i] + dp[i - 1][0]);
     }
 
-    return max(dp[n - 1][0], dp[n - 1][1]);
+    return dp[n - 1][0];
 }
 
 int maxProfit21DDP(vector<int>& prices) {
@@ -221,7 +221,7 @@ int maxProfit21DDP(vector<int>& prices) {
         prev = curr;
     }
 
-    return max(prev[0], prev[1]);
+    return prev[0];
 }
 
 int maxProfit33DDP(vector<int>& prices) {
