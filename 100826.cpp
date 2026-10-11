@@ -181,7 +181,7 @@ int lengthOfLISBruteforce(vector<int>& nums) {
 int lengthOfLIS2DDP(vector<int>& nums) {
     int n = nums.size();
 
-    // dp[i][j] -> Length of LIS starting from the ith index 
+    // dp[i][j + 1] -> Length of LIS starting from the ith index 
     // where j is the index of the previously selected element.
 
     vector<vector<int>> dp(n + 1, vector<int>(n + 1));
